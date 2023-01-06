@@ -1,4 +1,5 @@
 BuildType/<project>=Standard
+CharacterConversionNeeded//INSFOLDER/CRITICALF/CRITICALFILE=<NONE>
 CharacterConversionNeeded//INSFOLDER/FILEFOL=<NONE>
 CharacterConversionNeeded//SRC/REM=<NONE>
 CharacterConversionNeeded//SRC/SUZUKA=<NONE>
@@ -19,6 +20,7 @@ ShareBreakpoints/<project>=false
 breakpointFiles/<project>=GIRIARPI*BKPT.,VIEW
 buildStream/<project>=@DELETE,C GIRIARPI*BKPT.\n@CAT,P GIRIARPI*BKPT.,F///9999\n@. SET BREAKPOINT-FILE IN 'BRKPT FILES' TAB\n@BRKPT PRINT$, GIRIARPI*BKPT.\n@. CLEAR (DELETE & CATALOG) THE OBJFILE BEFORE EACH BUILD (RECOMMENDED)\n@DELETE,C GIRIARPI*OBJFILE.\n@CAT,P GIRIARPI*OBJFILE.,F///9999\n@CYCLE GIRIARPI*OBJFILE.\n@BRKPT PRINT$\n
 eclipse.preferences.version=1
+elementType//INSFOLDER/CRITICALF/CRITICALFILE=ELT
 elementType//INSFOLDER/FILEFOL=ELT
 elementType//SRC/REM=ELT
 elementType//SRC/SUZUKA=ELT
